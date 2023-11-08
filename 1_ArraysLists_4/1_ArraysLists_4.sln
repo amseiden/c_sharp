@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_ArraysLists_4", "1_ArraysLists_4.csproj", "{1B8EE4B2-9C58-4510-84DE-BF287D41594E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B8EE4B2-9C58-4510-84DE-BF287D41594E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8EE4B2-9C58-4510-84DE-BF287D41594E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8EE4B2-9C58-4510-84DE-BF287D41594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8EE4B2-9C58-4510-84DE-BF287D41594E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

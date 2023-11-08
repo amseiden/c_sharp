@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/bin/Debug/net7.0/1_ArraysLists_5
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/bin/Debug/net7.0/1_ArraysLists_5.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/bin/Debug/net7.0/1_ArraysLists_5.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/bin/Debug/net7.0/1_ArraysLists_5.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/bin/Debug/net7.0/1_ArraysLists_5.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/refint/1_ArraysLists_5.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/1_ArraysLists_5.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_ArraysLists_5/obj/Debug/net7.0/ref/1_ArraysLists_5.dll
