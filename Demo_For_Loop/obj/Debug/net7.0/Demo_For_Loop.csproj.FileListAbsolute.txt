@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/bin/Debug/net7.0/Demo_For_Loop
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/bin/Debug/net7.0/Demo_For_Loop.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/bin/Debug/net7.0/Demo_For_Loop.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/bin/Debug/net7.0/Demo_For_Loop.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/bin/Debug/net7.0/Demo_For_Loop.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/refint/Demo_For_Loop.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/Demo_For_Loop.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_For_Loop/obj/Debug/net7.0/ref/Demo_For_Loop.dll

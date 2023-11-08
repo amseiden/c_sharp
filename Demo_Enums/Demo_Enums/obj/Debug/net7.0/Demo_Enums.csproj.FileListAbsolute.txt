@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/bin/Debug/net7.0/Demo_Enums
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/bin/Debug/net7.0/Demo_Enums.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/bin/Debug/net7.0/Demo_Enums.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/bin/Debug/net7.0/Demo_Enums.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/bin/Debug/net7.0/Demo_Enums.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/refint/Demo_Enums.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/Demo_Enums.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Enums/Demo_Enums/obj/Debug/net7.0/ref/Demo_Enums.dll
