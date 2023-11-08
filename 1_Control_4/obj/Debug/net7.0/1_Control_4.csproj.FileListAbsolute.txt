@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/bin/Debug/net7.0/1_Control_4
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/bin/Debug/net7.0/1_Control_4.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/bin/Debug/net7.0/1_Control_4.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/bin/Debug/net7.0/1_Control_4.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/bin/Debug/net7.0/1_Control_4.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/refint/1_Control_4.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/1_Control_4.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Control_4/obj/Debug/net7.0/ref/1_Control_4.dll
