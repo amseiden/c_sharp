@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/bin/Debug/net7.0/Demo_Types
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/bin/Debug/net7.0/Demo_Types.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/bin/Debug/net7.0/Demo_Types.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/bin/Debug/net7.0/Demo_Types.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/bin/Debug/net7.0/Demo_Types.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/refint/Demo_Types.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/Demo_Types.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Types/Demo_Types/obj/Debug/net7.0/ref/Demo_Types.dll
