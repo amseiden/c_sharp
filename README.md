@@ -2,6 +2,6 @@
 c# projects
 
 
-In this project i performed a specified task.
+In this repo i upload my C# exercises.
 Thanks!
 
