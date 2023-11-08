@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/bin/Debug/net7.0/Demo_DateTime
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/bin/Debug/net7.0/Demo_DateTime.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/bin/Debug/net7.0/Demo_DateTime.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/bin/Debug/net7.0/Demo_DateTime.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/bin/Debug/net7.0/Demo_DateTime.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/refint/Demo_DateTime.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/Demo_DateTime.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_DateTime/obj/Debug/net7.0/ref/Demo_DateTime.dll

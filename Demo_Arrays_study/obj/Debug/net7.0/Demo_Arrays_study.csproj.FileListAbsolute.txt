@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/bin/Debug/net7.0/Demo_Arrays_study
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/bin/Debug/net7.0/Demo_Arrays_study.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/bin/Debug/net7.0/Demo_Arrays_study.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/bin/Debug/net7.0/Demo_Arrays_study.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/bin/Debug/net7.0/Demo_Arrays_study.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/refint/Demo_Arrays_study.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/Demo_Arrays_study.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Arrays_study/obj/Debug/net7.0/ref/Demo_Arrays_study.dll
