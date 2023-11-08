@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/bin/Debug/net7.0/1_Exercise_2
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/bin/Debug/net7.0/1_Exercise_2.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/bin/Debug/net7.0/1_Exercise_2.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/bin/Debug/net7.0/1_Exercise_2.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/bin/Debug/net7.0/1_Exercise_2.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/refint/1_Exercise_2.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/1_Exercise_2.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/1_Exercise_2/obj/Debug/net7.0/ref/1_Exercise_2.dll
