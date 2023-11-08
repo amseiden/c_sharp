@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/bin/Debug/net7.0/Demo_Statements
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/bin/Debug/net7.0/Demo_Statements.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/bin/Debug/net7.0/Demo_Statements.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/bin/Debug/net7.0/Demo_Statements.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/bin/Debug/net7.0/Demo_Statements.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/refint/Demo_Statements.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/Demo_Statements.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Statements/Demo_Statements/obj/Debug/net7.0/ref/Demo_Statements.dll

@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/bin/Debug/net7.0/Demo_Random
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/bin/Debug/net7.0/Demo_Random.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/bin/Debug/net7.0/Demo_Random.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/bin/Debug/net7.0/Demo_Random.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/bin/Debug/net7.0/Demo_Random.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/refint/Demo_Random.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/Demo_Random.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_Random/obj/Debug/net7.0/ref/Demo_Random.dll
