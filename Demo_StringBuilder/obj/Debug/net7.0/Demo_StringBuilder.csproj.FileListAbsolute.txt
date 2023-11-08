@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/bin/Debug/net7.0/Demo_StringBuilder
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/bin/Debug/net7.0/Demo_StringBuilder.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/bin/Debug/net7.0/Demo_StringBuilder.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/bin/Debug/net7.0/Demo_StringBuilder.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/bin/Debug/net7.0/Demo_StringBuilder.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/refint/Demo_StringBuilder.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/Demo_StringBuilder.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_StringBuilder/obj/Debug/net7.0/ref/Demo_StringBuilder.dll

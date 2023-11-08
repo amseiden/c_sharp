@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/bin/Debug/net7.0/Demo_TimeSpan
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/bin/Debug/net7.0/Demo_TimeSpan.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/bin/Debug/net7.0/Demo_TimeSpan.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/bin/Debug/net7.0/Demo_TimeSpan.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/bin/Debug/net7.0/Demo_TimeSpan.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/refint/Demo_TimeSpan.dll
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/Demo_TimeSpan.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/Mosh/Demo_TimeSpan/obj/Debug/net7.0/ref/Demo_TimeSpan.dll
