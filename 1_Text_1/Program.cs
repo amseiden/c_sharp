@@ -12,21 +12,21 @@ namespace _1_Text_1
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("User, enter some hyphen-separated numbers: ");
             string userInput = Console.ReadLine();
+            
             char separator = '-';
             string[] numberStrings = userInput.Split(separator);
             
             bool ruleaza = true;
             List<int> numbers = new List<int>();
             
-            
             foreach (string number in numberStrings)
             {
                 int.TryParse(number, out int myNumber);
                 numbers.Add(myNumber);
             }
-
             
             string numbersInline = string.Join(" ", numbers);
             Console.WriteLine("\nNumbers: "+numbersInline);

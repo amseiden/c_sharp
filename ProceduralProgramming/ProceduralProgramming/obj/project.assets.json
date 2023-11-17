@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/1_Text_1/1_Text_1.csproj",
-      "projectName": "1_Text_1",
-      "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/1_Text_1/1_Text_1.csproj",
+      "projectUniqueName": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/ProceduralProgramming/ProceduralProgramming/ProceduralProgramming.csproj",
+      "projectName": "ProceduralProgramming",
+      "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/ProceduralProgramming/ProceduralProgramming/ProceduralProgramming.csproj",
       "packagesPath": "/Users/amseiden/.nuget/packages/",
-      "outputPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/1_Text_1/obj/",
+      "outputPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/ProceduralProgramming/ProceduralProgramming/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/amseiden/.nuget/NuGet/NuGet.Config"
