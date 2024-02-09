@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Adapter.Database\Adapter.Database.csproj" />
+      <ProjectReference Include="..\DomainImpl\DomainImpl.csproj" />
+    </ItemGroup>
+
 </Project>

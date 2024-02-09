@@ -1,5 +1,13 @@
-﻿namespace DomainApi;
+﻿using Adapter.Database;
 
-public class Class1
+namespace DomainApi
 {
+    public interface IUserManager
+    {
+        void AddUser(User user);
+        User GetUser(int userId);
+        List<User> GetAllUsers();
+    }
+    
 }
+
