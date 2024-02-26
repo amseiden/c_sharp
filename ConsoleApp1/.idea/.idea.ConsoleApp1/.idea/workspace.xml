@@ -8,18 +8,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9082d56-893d-4b7d-b6ce-2138863d5d8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/Adapter.Database.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/Adapter.Database.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/adapter.database.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Adapter.Database.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Adapter.Database.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Adapter.Database.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Adapter.Database.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Adapter.Database.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Adapter.Database.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Adapter.Database/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/domain.api.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/DomainApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/DomainApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/Debug/net7.0/DomainApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/Debug/net7.0/DomainApi.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/Debug/net7.0/DomainApi.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/Debug/net7.0/DomainApi.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/DomainApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/DomainApi.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/DomainApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/DomainApi.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainApi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/domain.impl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/DomainImpl.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/DomainImpl.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/DomainImpl.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/DomainImpl.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/DomainImpl.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/DomainImpl.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/DomainImpl/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/Web.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/Web.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Debug/net7.0/Web.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Debug/net7.0/Web.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Debug/net7.0/Web.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Debug/net7.0/Web.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Web.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Web.Api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/Web.Api.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../the_big_one/Web.Api/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,34 +62,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2c2iMiYP8VS2XruoK028SYst950" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/amseiden/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/amseiden/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/amseiden/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/amseiden/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/amseiden/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/amseiden/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ConsoleApp1" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -87,6 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707316027942</updated>
       <workItem from="1707316028982" duration="645000" />
+      <workItem from="1708616709408" duration="6000" />
     </task>
     <servers />
   </component>

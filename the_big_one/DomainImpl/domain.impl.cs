@@ -1,13 +1,16 @@
-﻿using System.Collections.Generic;
+﻿//   DOMAIN IMPL
+//   business logic and functionality of the proj.
+//   contains the actual implementations of the interfaces or classes defined in the "DomainApi."
+
+
 using Adapter.Database;
 using DomainApi;
-
 
 namespace DomainImpl
 {
     public class UserManager : IUserManager
     {
-        private readonly UserDatabase UserDatabase;
+        private readonly UserDatabase UserDatabase; 
 
         public UserManager(UserDatabase userDatabase)
         {
@@ -27,6 +30,20 @@ namespace DomainImpl
         public List<User> GetAllUsers()
         {
             return UserDatabase.GetAllUsers();
+        }
+    }
+
+    
+    public class PasswordHasher : IPasswordHasher
+    {
+        public string Hash(string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Verify(string passwordHash, string inputPassword)
+        {
+            throw new NotImplementedException();
         }
     }
 }
