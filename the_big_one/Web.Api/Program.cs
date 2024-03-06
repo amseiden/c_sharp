@@ -1,58 +1,70 @@
 ﻿//   WEB API
-//   the entry point of the proj interacts with the other components, orchestrating the flow of the program.
-//   used to test and showcase the functionalities implemented in "DomainImpl.
 
-
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Adapter.Database;  
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Adapter.Database;
 using DomainApi;
+using DomainApi.Models;
 using DomainImpl;
 
 class Program
 {
     static void Main()
     {
-        // Setup DI (Dependency Injection)
-        var configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json");
+        var configuration = new ConfigurationBuilder()
+            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+            .AddJsonFile("appsettings.json")
+            .Build();
+
         var serviceProvider = new ServiceCollection()
-            .AddSingleton<IConfiguration>(configuration as IConfiguration)
-            .AddTransient<UserDatabase>()
-            .AddTransient<IUserManager, UserManager>() 
-            .BuildServiceProvider(); 
-        // Resolve UserManager and UserDatabase from DI
-        var userManager = serviceProvider.GetRequiredService<IUserManager>();
-        var userDatabase = serviceProvider.GetRequiredService<UserDatabase>();
+            .AddDbContext<UserDbContext>(options =>
+                options.UseMySql(
+                    configuration.GetConnectionString("DefaultConnection"),
+                    new MySqlServerVersion(new Version(5, 7, 39)) 
+                )
+            )
+            .AddScoped<IUserManager, UserManager>()
+            .BuildServiceProvider();
 
-        // Example: Add a new user
-        var newUser = new Adapter.Database.User { UserName = "MaxMule", Email = "maxmule@gmail.com", Password = "parolalalala" };
-        userManager.AddUser(newUser);
+        using (var scope = serviceProvider.CreateScope())
+        {
+            var dbContext = scope.ServiceProvider.GetRequiredService<UserDbContext>();
 
-        // Example: Retrieve and display a specific user
-        var retrievedUser = userManager.GetUser(1);
-        if (retrievedUser != null)
-        {
-            Console.WriteLine($"User ID: {retrievedUser.UserId}, " +
-                              $"UserName: {retrievedUser.UserName}, " +
-                              $"Email: {retrievedUser.Email}");
-        }
-        
-        // Example: Retrieve and display all users
-        var allUsers = userManager.GetAllUsers();
-        foreach (var user in allUsers)
-        {
-            Console.WriteLine($"User ID: {user.UserId}, " +
-                              $"UserName: {user.UserName}, " +
-                              $"Email: {user.Email}");
+            // Example: Add user
+            var newUser = new User
+            {
+                userName = "JohnDoe",
+                email = "john.doe@example.com",
+                password = "password123"
+            };
+            dbContext.Users.Add(newUser);
+            dbContext.SaveChanges();
+
+            // Example: Retrieve all users
+            var allUsers = dbContext.Users.ToList();
+            foreach (var user in allUsers)
+            {
+                Console.WriteLine($"User ID: {user.userId}, Username: {user.userName}");
+            }
+
+            // Example: Update user
+            var userToUpdate = dbContext.Users.FirstOrDefault(u => u.userName == "JohnDoe");
+            if (userToUpdate != null)
+            {
+                userToUpdate.userName = "UpdatedJohnDoe";
+                dbContext.SaveChanges();
+            }
+
+            // Example: Delete user
+            var userToDelete = dbContext.Users.FirstOrDefault(u => u.userName == "UpdatedJohnDoe");
+            if (userToDelete != null)
+            {
+                dbContext.Users.Remove(userToDelete);
+                dbContext.SaveChanges();
+            }
+
+            Console.WriteLine("Database operations completed successfully!");
         }
     }
 }
-
-internal class ConfigurationBuilder
-{
-    public object AddJsonFile(string appsettingsjson) 
-    {
-        throw new NotImplementedException();
-    }
-}
-

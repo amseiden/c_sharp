@@ -1,38 +1,63 @@
 ﻿//   DOMAIN IMPL
-//   business logic and functionality of the proj.
-//   contains the actual implementations of the interfaces or classes defined in the "DomainApi."
-
 
 using Adapter.Database;
 using DomainApi;
+using DomainApi.Models;
 
 namespace DomainImpl
 {
     public class UserManager : IUserManager
     {
-        private readonly UserDatabase UserDatabase; 
 
-        public UserManager(UserDatabase userDatabase)
+        private readonly UserDbContext _UserDbContext;
+
+        public UserManager(UserDbContext userDbContext)
         {
-            UserDatabase = userDatabase;
+            _UserDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
         }
-
         public void AddUser(User user)
         {
-            UserDatabase.AddUser(user);
+            if (user == null)
+            {
+                throw new ArgumentNullException(nameof(user));
+            }
+
+            _UserDbContext.Users.Add(user);
+            _UserDbContext.SaveChanges();
         }
 
         public User GetUser(int userId)
         {
-            return UserDatabase.GetUser(userId);
+            return _UserDbContext.Users.Find(userId);
         }
-
         public List<User> GetAllUsers()
         {
-            return UserDatabase.GetAllUsers();
+            return _UserDbContext.Users.ToList();
+        }
+
+        public void UpdateUser(int userId, string userName, string email, string password)
+        {
+            var user = _UserDbContext.Users.Find(userId);
+            if (user != null)
+            {
+                user.userName = userName;
+                user.email = email;
+                user.password = password;
+
+                _UserDbContext.SaveChanges();
+            }        
+        }
+
+        public void DeleteUser(int userId)
+        {
+            var user = _UserDbContext.Users.Find(userId);
+            if (user != null)
+            {
+                _UserDbContext.Users.Remove(user);
+                _UserDbContext.SaveChanges();
+            }        
         }
     }
-
     
     public class PasswordHasher : IPasswordHasher
     {
