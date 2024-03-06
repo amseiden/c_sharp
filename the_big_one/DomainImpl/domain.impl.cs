@@ -10,7 +10,6 @@ namespace DomainImpl
     {
 
         private readonly UserDbContext _UserDbContext;
-
         public UserManager(UserDbContext userDbContext)
         {
             _UserDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
@@ -21,7 +20,6 @@ namespace DomainImpl
             {
                 throw new ArgumentNullException(nameof(user));
             }
-
             _UserDbContext.Users.Add(user);
             _UserDbContext.SaveChanges();
         }
@@ -65,7 +63,6 @@ namespace DomainImpl
         {
             throw new NotImplementedException();
         }
-
         public bool Verify(string passwordHash, string inputPassword)
         {
             throw new NotImplementedException();

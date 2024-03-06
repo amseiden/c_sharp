@@ -1,8 +1,6 @@
 ﻿//   ADAPTER DATABASE
 
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using DomainApi;
 using DomainApi.Models;
 
 namespace Adapter.Database

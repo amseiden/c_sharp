@@ -6,17 +6,17 @@ class Program
     {
         IPasswordHasher passwordHasher = new PasswordHasher();
 
-        // Get user input for password
+        // input password
         Console.Write("Enter your password: ");
         string password = Console.ReadLine();
 
-        // Hash the password
+        // hash the password
         string hashedPassword = passwordHasher.Hash(password);
 
-        // Display the hashed password
+        // display the hashed password
         Console.WriteLine("Hashed Password: " + hashedPassword);
 
-        // Test password verification
+        // verification
         Console.Write("Enter the password again for verification: ");
         string inputPassword = Console.ReadLine();
 
