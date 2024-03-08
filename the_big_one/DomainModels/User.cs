@@ -1,3 +1,5 @@
+// User.cs
+
 namespace DomainApi.Models;
 
 public class User

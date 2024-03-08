@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+I8DeJBxvP5TBwX9Rhz2HlJLIGVtiHc7KAUpKiPA1oHZvz1qfCzJTG+SyFFlZHMC/FFXs9H7xQBPTavBTQ6cSw==",
+  "dgSpecHash": "DvP7qTJwHX7jn+SSkzscEVCNkFYRvNrfsEKr2cTZXgQHVoVdVFJ3xybPtAo+wKFWRs1U+YPFrGqnsiQ1DSSeLw==",
   "success": true,
-  "projectFilePath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj",
+  "projectFilePath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj",
   "expectedPackageFiles": [
     "/Users/amseiden/.nuget/packages/bouncycastle.cryptography/2.2.1/bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "/Users/amseiden/.nuget/packages/google.protobuf/3.25.1/google.protobuf.3.25.1.nupkg.sha512",
