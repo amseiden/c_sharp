@@ -9,7 +9,7 @@ namespace DomainApi
         void AddUser(User user);
         User GetUser(int userId);
         List<User> GetAllUsers();
-        void UpdateUser(int userId, string userName, string email, string password);
+        void UpdateUser(int userId, string? userName, string? email, string? password);
         void DeleteUser(int userId);
     }
 

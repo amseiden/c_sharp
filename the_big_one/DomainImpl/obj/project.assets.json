@@ -924,6 +924,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "DomainApi": "1.0.0",
           "DomainModels": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.Extensions.Configuration": "7.0.0",
@@ -943,8 +944,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Adapter.Database": "1.0.0",
-          "DomainModels": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.16",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",

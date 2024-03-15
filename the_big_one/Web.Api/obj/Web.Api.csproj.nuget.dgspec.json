@@ -26,6 +26,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
+                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+              },
               "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj": {
                 "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj"
               }
@@ -108,14 +111,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj"
-              },
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -382,6 +378,22 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.16, )"
@@ -405,6 +417,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

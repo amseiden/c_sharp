@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\DomainApi\DomainApi.csproj" />
       <ProjectReference Include="..\DomainModels\DomainModels.csproj" />
     </ItemGroup>
 

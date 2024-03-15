@@ -26,6 +26,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
+                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+              },
               "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj": {
                 "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj"
               }
@@ -108,14 +111,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj"
-              },
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

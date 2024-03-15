@@ -33,7 +33,7 @@ namespace DomainImpl
             return _UserDbContext.Users.ToList();
         }
 
-        public void UpdateUser(int userId, string userName, string email, string password)
+        public void UpdateUser(int userId, string? userName, string? email, string? password)
         {
             var user = _UserDbContext.Users.Find(userId);
             if (user != null)

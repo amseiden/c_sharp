@@ -920,6 +920,24 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
+      "DomainApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.16",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "MySql.Data": "8.3.0",
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DomainApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomainApi.dll": {}
+        }
+      },
       "DomainModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -2740,6 +2758,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "DomainApi/1.0.0": {
+      "type": "project",
+      "path": "../DomainApi/DomainApi.csproj",
+      "msbuildProject": "../DomainApi/DomainApi.csproj"
+    },
     "DomainModels/1.0.0": {
       "type": "project",
       "path": "../DomainModels/DomainModels.csproj",
@@ -2748,6 +2771,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DomainApi >= 1.0.0",
       "DomainModels >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.16",
       "Microsoft.Extensions.Configuration >= 7.0.0",
@@ -2782,6 +2806,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
+              "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+            },
             "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj": {
               "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj"
             }
