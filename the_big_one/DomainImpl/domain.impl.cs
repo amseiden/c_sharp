@@ -1,5 +1,7 @@
 ﻿//   DOMAIN IMPL
 
+using System.Security.Cryptography;
+using System.Text;
 using Adapter.Database;
 using DomainApi;
 using DomainApi.Models;
@@ -8,11 +10,13 @@ namespace DomainImpl
 {
     public class UserManager : IUserManager
     {
+        private readonly UserDbContext _userDbContext;
+        private readonly IPasswordHasher _passwordHasher;
 
-        private readonly UserDbContext _UserDbContext;
-        public UserManager(UserDbContext userDbContext)
+        public UserManager(UserDbContext userDbContext, IPasswordHasher passwordHasher)
         {
-            _UserDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
+            _userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
+            _passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
         }
         public void AddUser(User user)
         {
@@ -20,39 +24,39 @@ namespace DomainImpl
             {
                 throw new ArgumentNullException(nameof(user));
             }
-            _UserDbContext.Users.Add(user);
-            _UserDbContext.SaveChanges();
+            _userDbContext.Users.Add(user);
+            _userDbContext.SaveChanges();
         }
 
         public User GetUser(int userId)
         {
-            return _UserDbContext.Users.Find(userId);
+            return _userDbContext.Users.Find(userId);
         }
         public List<User> GetAllUsers()
         {
-            return _UserDbContext.Users.ToList();
+            return _userDbContext.Users.ToList();
         }
 
         public void UpdateUser(int userId, string? userName, string? email, string? password)
         {
-            var user = _UserDbContext.Users.Find(userId);
+            var user = _userDbContext.Users.Find(userId);
             if (user != null)
             {
                 user.userName = userName;
                 user.email = email;
                 user.password = password;
 
-                _UserDbContext.SaveChanges();
+                _userDbContext.SaveChanges();
             }        
         }
 
         public void DeleteUser(int userId)
         {
-            var user = _UserDbContext.Users.Find(userId);
+            var user = _userDbContext.Users.Find(userId);
             if (user != null)
             {
-                _UserDbContext.Users.Remove(user);
-                _UserDbContext.SaveChanges();
+                _userDbContext.Users.Remove(user);
+                _userDbContext.SaveChanges();
             }        
         }
     }
@@ -61,12 +65,28 @@ namespace DomainImpl
     {
         public string Hash(string password)
         {
-            throw new NotImplementedException();
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+
+                // Convert the byte array to a hexadecimal string
+                StringBuilder stringBuilder = new StringBuilder();
+                for (int i = 0; i < hashedBytes.Length; i++)
+                {
+                    stringBuilder.Append(hashedBytes[i].ToString("x2"));
+                }
+
+                return stringBuilder.ToString();
+            }
         }
+
         public bool Verify(string passwordHash, string inputPassword)
         {
-            throw new NotImplementedException();
+            // Hash the input password and compare it with the stored hash
+            string inputHash = Hash(inputPassword);
+            return string.Equals(passwordHash, inputHash, StringComparison.OrdinalIgnoreCase);
         }
+
     }
 }
 
