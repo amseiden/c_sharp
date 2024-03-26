@@ -69,7 +69,6 @@ namespace DomainImpl
             {
                 byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
 
-                // Convert the byte array to a hexadecimal string
                 StringBuilder stringBuilder = new StringBuilder();
                 for (int i = 0; i < hashedBytes.Length; i++)
                 {
@@ -82,7 +81,6 @@ namespace DomainImpl
 
         public bool Verify(string passwordHash, string inputPassword)
         {
-            // Hash the input password and compare it with the stored hash
             string inputHash = Hash(inputPassword);
             return string.Equals(passwordHash, inputHash, StringComparison.OrdinalIgnoreCase);
         }
