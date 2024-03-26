@@ -1,37 +1,67 @@
-using WebApp;
+using Adapter.Database;
+using Microsoft.EntityFrameworkCore; 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add authorization services
-builder.Services.AddAuthorization();
+// Add services to the container.
+builder.Services.AddControllers();
 
-// Add HttpClient as a service
-builder.Services.AddHttpClient<ApiService>(client =>
+builder.Services.AddDbContext<UserDbContext>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(5, 7, 39))));
+
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddApiVersioning()
+    .AddMvc()
+    .AddApiExplorer(
+        options =>
+        {
+            // format the version as "'v'major[.minor][-status]"
+            // ReSharper disable once StringLiteralTypo
+            options.GroupNameFormat = "'v'VVV";
+            options.SubstituteApiVersionInUrl = false;
+        });
+
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddResponseCaching();
+
+// builder.Services.AddScoped<IEngineService, EngineService>();
+
+builder.Services.AddLogging(build =>
 {
-    client.BaseAddress = new Uri("http://localhost:5000"); // Base URL of Web.Api
+    build.AddConsole().SetMinimumLevel(LogLevel.Debug);
+    build.AddDebug().SetMinimumLevel(LogLevel.Debug);
 });
 
 var app = builder.Build();
+app.UseResponseCaching();
 
-if (!app.Environment.IsDevelopment())
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
-    app.UseHsts();
+    app.UseDeveloperExceptionPage();
+    app.UseMigrationsEndPoint();
+
+    app.UseSwagger();
+
+    app.UseSwaggerUI(
+        options =>
+        {
+            foreach (var description in app.DescribeApiVersions())
+            {
+                var url = $"/swagger/{description.GroupName}/swagger.json";
+                var name = description.GroupName;
+                options.SwaggerEndpoint(url, name);
+            }
+        });
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
 
-app.UseRouting();
-
-// Add authorization middleware
 app.UseAuthorization();
 
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
-});
+app.MapControllers();
 
 app.Run();

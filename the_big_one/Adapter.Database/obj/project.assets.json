@@ -72,11 +72,11 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/7.0.16": {
+      "Microsoft.EntityFrameworkCore/7.0.17": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.16",
-          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.16",
+          "Microsoft.EntityFrameworkCore.Abstractions": "7.0.17",
+          "Microsoft.EntityFrameworkCore.Analyzers": "7.0.17",
           "Microsoft.Extensions.Caching.Memory": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0"
@@ -95,7 +95,7 @@
           "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/7.0.16": {
+      "Microsoft.EntityFrameworkCore.Abstractions/7.0.17": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -108,7 +108,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/7.0.16": {
+      "Microsoft.EntityFrameworkCore.Analyzers/7.0.17": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -924,7 +924,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.16",
+          "Microsoft.EntityFrameworkCore": "7.0.17",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -936,24 +936,6 @@
         },
         "runtime": {
           "bin/placeholder/DomainApi.dll": {}
-        }
-      },
-      "DomainModels/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.16",
-          "Microsoft.Extensions.Configuration": "7.0.0",
-          "Microsoft.Extensions.Configuration.Json": "7.0.0",
-          "Microsoft.Extensions.DependencyInjection": "7.0.0",
-          "MySql.Data": "8.3.0",
-          "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DomainModels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DomainModels.dll": {}
         }
       }
     }
@@ -1065,10 +1047,10 @@
         "lib/netstandard2.1/K4os.Hash.xxHash.xml"
       ]
     },
-    "Microsoft.EntityFrameworkCore/7.0.16": {
-      "sha512": "SbMHFQG7iXgBTUFv5XxVMwpRqDKah4qTraDAGUv4gkaudFAOSuNfNRfCXY282hij79P1oxg/M9Wni+8GXavxQQ==",
+    "Microsoft.EntityFrameworkCore/7.0.17": {
+      "sha512": "bKZbiZp/eF2t7/IFTubo8ZnMGtgPj6ffy6CRuMOSS3arETcnVAIPbMyWMeobG0W67rjxWzWUF+6lWp7IqNdO0g==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/7.0.16",
+      "path": "microsoft.entityframeworkcore/7.0.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1076,35 +1058,35 @@
         "buildTransitive/net6.0/Microsoft.EntityFrameworkCore.props",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.7.0.16.nupkg.sha512",
+        "microsoft.entityframeworkcore.7.0.17.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/7.0.16": {
-      "sha512": "emuQo430RBfwZSxwTYKu0/+ohRixXaRNi3njEbzcnaFqc94oU6afcx5KYtk5/lrBQn58Oo0CUmDRhMeFQI4Kgg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/7.0.17": {
+      "sha512": "Umq1ik7FekatqAspsd7O+3GJrJZVCgZNSZI4otqny5VXwXlo/hpdqEtbpN/iuVyI1m4m0dbgYyRsSKaFt/0MYw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/7.0.16",
+      "path": "microsoft.entityframeworkcore.abstractions/7.0.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.7.0.16.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.7.0.17.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/7.0.16": {
-      "sha512": "DO8M/90nqgq7fFoR4SIty9thhK22RBIwxoJxPIwrATy9FV1QKGPUeG9iMnz1yHv5/NxZWr8xF44oFAsrgcHgXg==",
+    "Microsoft.EntityFrameworkCore.Analyzers/7.0.17": {
+      "sha512": "Je9eCOYnYm7TVqAbvNurZTCRMboo4sPCEBD2/h0Pq9Uow4+bHTcegeNQLEf2lraWONo/QLR2YD/PF0v7JjdnMw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/7.0.16",
+      "path": "microsoft.entityframeworkcore.analyzers/7.0.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.7.0.16.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.7.0.17.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -2762,18 +2744,12 @@
       "type": "project",
       "path": "../DomainApi/DomainApi.csproj",
       "msbuildProject": "../DomainApi/DomainApi.csproj"
-    },
-    "DomainModels/1.0.0": {
-      "type": "project",
-      "path": "../DomainModels/DomainModels.csproj",
-      "msbuildProject": "../DomainModels/DomainModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "DomainApi >= 1.0.0",
-      "DomainModels >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 7.0.16",
+      "Microsoft.EntityFrameworkCore >= 7.0.17",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -2808,9 +2784,6 @@
           "projectReferences": {
             "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
               "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
-            },
-            "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj": {
-              "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/DomainModels.csproj"
             }
           }
         }
@@ -2827,7 +2800,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[7.0.16, )"
+            "version": "[7.0.17, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",

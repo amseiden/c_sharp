@@ -1,0 +1,12 @@
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/bin/Debug/net7.0/DomainModels.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/bin/Debug/net7.0/DomainModels.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/bin/Debug/net7.0/DomainModels.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/refint/DomainModels.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/DomainModels.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainModels/obj/Debug/net7.0/ref/DomainModels.dll

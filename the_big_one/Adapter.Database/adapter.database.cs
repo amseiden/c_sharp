@@ -7,7 +7,11 @@ namespace Adapter.Database
 {
     public class UserDbContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; } = null!;
+
+        public UserDbContext()
+        {
+        }
 
         public UserDbContext(DbContextOptions<UserDbContext> options) : base(options)
         {

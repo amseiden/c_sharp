@@ -1,0 +1,17 @@
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/DomainImpl.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/DomainImpl.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/DomainImpl.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/Adapter.Database.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/DomainApi.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/Adapter.Database.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/bin/Debug/net7.0/DomainApi.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.csproj.CopyComplete
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/refint/DomainImpl.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/DomainImpl.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/Debug/net7.0/ref/DomainImpl.dll

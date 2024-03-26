@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/bin/Debug/net7.0/Adapter.Database.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/bin/Debug/net7.0/Adapter.Database.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/bin/Debug/net7.0/Adapter.Database.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/refint/Adapter.Database.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/ref/Adapter.Database.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/Debug/net7.0/Adapter.Database.csproj.CopyComplete
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/bin/Debug/net7.0/DomainApi.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/bin/Debug/net7.0/DomainApi.pdb

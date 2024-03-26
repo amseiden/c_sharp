@@ -1,0 +1,15 @@
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/bin/Debug/net7.0/hasher
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/bin/Debug/net7.0/hasher.deps.json
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/bin/Debug/net7.0/hasher.runtimeconfig.json
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/bin/Debug/net7.0/hasher.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/bin/Debug/net7.0/hasher.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.AssemblyInfo.cs
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/refint/hasher.dll
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.pdb
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/hasher.genruntimeconfig.cache
+/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/hasher/hasher/obj/Debug/net7.0/ref/hasher.dll

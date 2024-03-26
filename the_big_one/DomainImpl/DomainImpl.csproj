@@ -9,11 +9,10 @@
     <ItemGroup>
       <ProjectReference Include="..\Adapter.Database\Adapter.Database.csproj" />
       <ProjectReference Include="..\DomainApi\DomainApi.csproj" />
-      <ProjectReference Include="..\DomainModels\DomainModels.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.16" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.17" />
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
