@@ -1,13 +1,11 @@
-using Asp.Versioning;
 using DomainApi;
 using DomainApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApp.Controllers;
 
-[ApiVersion(1.0)]
 [ApiController]
-[Route("api/v{version:apiVersion}/[controller]")]
+[Route("api/[controller]")]
 [Produces("application/json")]
 public class UserController : ControllerBase
 {
@@ -57,4 +55,3 @@ public class UserController : ControllerBase
         return NoContent(); 
     }
 }
-

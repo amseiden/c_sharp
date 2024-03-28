@@ -12,6 +12,7 @@
           "Asp.Versioning.Mvc": "7.1.1",
           "Asp.Versioning.Mvc.ApiExplorer": "7.1.0",
           "AutoMapper": "13.0.1",
+          "DomainImpl": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.17",
           "Microsoft.AspNetCore.OpenApi": "7.0.17",
           "Microsoft.EntityFrameworkCore": "7.0.17",
@@ -606,6 +607,21 @@
         "runtime": {
           "DomainApi.dll": {}
         }
+      },
+      "DomainImpl/1.0.0": {
+        "dependencies": {
+          "Adapter.Database": "1.0.0",
+          "DomainApi": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.17",
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "MySql.Data": "8.3.0",
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
+        },
+        "runtime": {
+          "DomainImpl.dll": {}
+        }
       }
     }
   },
@@ -1083,6 +1099,11 @@
       "sha512": ""
     },
     "DomainApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainImpl/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

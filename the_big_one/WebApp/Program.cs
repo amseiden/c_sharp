@@ -1,4 +1,6 @@
 using Adapter.Database;
+using DomainApi;
+using DomainImpl;
 using Microsoft.EntityFrameworkCore; 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,27 +9,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<UserDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+    options.UseMySql(builder.Configuration.GetConnectionString("ApplicationDatabase"),
         new MySqlServerVersion(new Version(5, 7, 39))));
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
-builder.Services.AddApiVersioning()
-    .AddMvc()
-    .AddApiExplorer(
-        options =>
-        {
-            // format the version as "'v'major[.minor][-status]"
-            // ReSharper disable once StringLiteralTypo
-            options.GroupNameFormat = "'v'VVV";
-            options.SubstituteApiVersionInUrl = false;
-        });
 
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddResponseCaching();
 
-// builder.Services.AddScoped<IEngineService, EngineService>();
+builder.Services.AddScoped<IUserManager, UserManager>(); 
+builder.Services.AddScoped<IPasswordHasher, PasswordHasher>(); 
 
 builder.Services.AddLogging(build =>
 {
@@ -49,12 +41,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(
         options =>
         {
-            foreach (var description in app.DescribeApiVersions())
-            {
-                var url = $"/swagger/{description.GroupName}/swagger.json";
-                var name = description.GroupName;
-                options.SwaggerEndpoint(url, name);
-            }
+            var url = "/swagger/v1/swagger.json";
+            options.SwaggerEndpoint(url, "User API");
         });
 }
 
