@@ -1,0 +1,16 @@
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/bin/Debug/net8.0/Adapter.Database.deps.json
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/bin/Debug/net8.0/Adapter.Database.dll
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/bin/Debug/net8.0/Adapter.Database.pdb
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/bin/Debug/net8.0/DomainApi.dll
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/bin/Debug/net8.0/DomainApi.pdb
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.csproj.AssemblyReference.cache
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.AssemblyInfoInputs.cache
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.AssemblyInfo.cs
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.csproj.CoreCompileInputs.cache
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.sourcelink.json
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter..9A89A497.Up2Date
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.dll
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/refint/Adapter.Database.dll
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/Adapter.Database.pdb
+/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/Debug/net8.0/ref/Adapter.Database.dll

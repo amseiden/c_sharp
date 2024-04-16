@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj": {}
+    "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj": {}
   },
   "projects": {
-    "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
+    "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj",
+        "projectUniqueName": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj",
         "projectName": "Adapter.Database",
-        "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj",
+        "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj",
         "packagesPath": "/Users/amseiden/.nuget/packages/",
-        "outputPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/obj/",
+        "outputPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amseiden/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+              "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
+                "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
               }
             }
           }
@@ -39,32 +39,16 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.17, )"
+              "version": "[8.0.4, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.3.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -83,31 +67,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/amseiden/.vscode-dotnet-sdk/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
+    "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
+        "projectUniqueName": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
         "projectName": "DomainApi",
-        "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
+        "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
         "packagesPath": "/Users/amseiden/.nuget/packages/",
-        "outputPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/obj/",
+        "outputPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amseiden/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -118,34 +102,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.17, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.3.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -162,37 +120,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/amseiden/.vscode-dotnet-sdk/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj": {
+    "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj",
+        "projectUniqueName": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj",
         "projectName": "DomainImpl",
-        "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj",
+        "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj",
         "packagesPath": "/Users/amseiden/.nuget/packages/",
-        "outputPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainImpl/obj/",
+        "outputPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainImpl/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/amseiden/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj"
+              "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
+                "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj"
               },
-              "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
-                "projectPath": "/Users/amseiden/Documents/Mule /exersare/C#/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+              "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
+                "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
               }
             }
           }
@@ -204,34 +162,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.17, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.3.0, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -248,7 +180,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/amseiden/.vscode-dotnet-sdk/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
