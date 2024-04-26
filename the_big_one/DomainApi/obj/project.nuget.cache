@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jPGqcEV6wGdUcLxo2pDPrnLXIQOlY5kOhnwgG4NAkZcMAEOqg+cz4TB4nt0sj0iK7yXv/wv1Q2QxZPQnOwMPLQ==",
+  "dgSpecHash": "BOimthdSP5poRXLWul+NDvfb44exjFxYVfCAi5+CWLV5o/p6KEDx3A2tporWblqL91y6p/IbtOclfGQrZlIoaA==",
   "success": true,
-  "projectFilePath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
+  "projectFilePath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

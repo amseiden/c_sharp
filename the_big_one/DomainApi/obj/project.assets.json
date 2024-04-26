@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/amseiden/.nuget/packages/": {}
+    "/Users/danielciornei/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
+      "projectUniqueName": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
       "projectName": "DomainApi",
-      "projectPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
-      "packagesPath": "/Users/amseiden/.nuget/packages/",
-      "outputPath": "/Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/obj/",
+      "projectPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj",
+      "packagesPath": "/Users/danielciornei/.nuget/packages/",
+      "outputPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/amseiden/.nuget/NuGet/NuGet.Config"
+        "/Users/danielciornei/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.3/libexec/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,4 +1,4 @@
-﻿//   DOMAIN API
+﻿// DOMAIN API
 
 using DomainApi.Models;
 
@@ -9,8 +9,9 @@ namespace DomainApi
         void AddUser(User user);
         User GetUser(int userId);
         List<User> GetAllUsers();
-        void UpdateUser(int userId, string? userName, string? email, string? password);
+        void UpdateUser(int userId, string userUsername, string userEmail, string userPassword, string firstName, string lastName);
         void DeleteUser(int userId);
+      //  void UpdateUser(int userId, string userUsername, string userEmail, string userPassword);
     }
 
     public interface IPasswordHasher

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DomainApi
-build_property.ProjectDir = /Users/amseiden/Documents/mule/cs/c_sharp/the_big_one/DomainApi/
+build_property.ProjectDir = /Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
