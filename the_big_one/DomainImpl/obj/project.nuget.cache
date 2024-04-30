@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ykrMKZcKWxP6hf9CDpZDS+BbEvNGR38gaIYoVs/0NYPTiKkrl5Fb1d3OCXUW4H+8QtrUPPwAFWdEDFPvg43i1g==",
+  "dgSpecHash": "MnwT8pu2pWei890rvphflDUD6aLqP7AbwQVDzBEbtS6znJbWQfR9BfdNtPNHOrrD2ZqlU8Co9xznjvQj9bQZXw==",
   "success": true,
   "projectFilePath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainImpl/DomainImpl.csproj",
   "expectedPackageFiles": [
@@ -16,5 +16,12 @@
     "/Users/danielciornei/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
     "/Users/danielciornei/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.episerver.com/feed/packages.svc'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

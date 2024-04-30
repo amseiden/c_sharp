@@ -35,12 +35,23 @@ namespace DomainImpl
             return _userDbContext.Users.ToList();
         }
 
-        public void UpdateUser(int userId, string username, string email, string password, string firstName, string lastName)
+        public void UpdateUser(int userId, string? username, string? email, string? password, string? firstName, string? lastName)
         {
-            throw new NotImplementedException();
+            var user = _userDbContext.Users.Find(userId);
+            if (user != null)
+            {
+                user.UserID = userId;
+                user.Username = username;
+                user.Email = email;
+                user.Password = password;
+                user.FirstName = firstName;
+                user.LastName = lastName;
+
+                _userDbContext.SaveChanges();
+            }   
         }
 
-        public void UpdateUser(int userId, string? userName, string? email, string? password)
+        /*public void UpdateUser(int userId, string? userName, string? email, string? password)
         {
             var user = _userDbContext.Users.Find(userId);
             if (user != null)
@@ -48,10 +59,10 @@ namespace DomainImpl
                 user.Username = userName;
                 user.Email = email;
                 user.Password = password;
-
+        
                 _userDbContext.SaveChanges();
             }        
-        }
+        }*/
 
         public void DeleteUser(int userId)
         {
