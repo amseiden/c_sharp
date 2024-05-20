@@ -1,4 +1,5 @@
 ﻿//   DOMAIN IMPL
+//   IUserManager
 
 using Adapter.Database;
 using DomainApi;
@@ -13,8 +14,8 @@ namespace DomainImpl
 
         public UserManager(UserDbContext userDbContext, IPasswordHasher passwordHasher)
         {
-            _userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
-            _passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
+            this._userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
+            this._passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
         }
         public void AddUser(User user)
         {
@@ -22,9 +23,23 @@ namespace DomainImpl
             {
                 throw new ArgumentNullException(nameof(user));
             }
-            _userDbContext.Users.Add(user);
-            _userDbContext.SaveChanges();
+            using (var transaction = _userDbContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    user.Password = _passwordHasher.Hash(user.Password);
+                    _userDbContext.Users.Add(user);
+                    _userDbContext.SaveChanges();
+                    transaction.Commit();
+                }
+                catch
+                {
+                    transaction.Rollback();
+                    throw;
+                }
+            }
         }
+
 
         public User GetUser(int userName)
         {
@@ -40,16 +55,16 @@ namespace DomainImpl
             var user = _userDbContext.Users.Find(userId);
             if (user != null)
             {
-                user.UserID = userId;
-                user.Username = username;
-                user.Email = email;
-                user.Password = password;
-                user.FirstName = firstName;
-                user.LastName = lastName;
+                if (!string.IsNullOrEmpty(username)) user.Username = username;
+                if (!string.IsNullOrEmpty(email)) user.Email = email;
+                if (!string.IsNullOrEmpty(password)) user.Password = _passwordHasher.Hash(password); // hash the password
+                if (!string.IsNullOrEmpty(firstName)) user.FirstName = firstName;
+                if (!string.IsNullOrEmpty(lastName)) user.LastName = lastName;
 
                 _userDbContext.SaveChanges();
             }   
         }
+
 
         /*public void UpdateUser(int userId, string? userName, string? email, string? password)
         {

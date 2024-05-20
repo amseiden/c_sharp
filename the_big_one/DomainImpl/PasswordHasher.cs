@@ -1,3 +1,6 @@
+//   DOMAIN IMPL
+//   IPasswordHasher
+
 using System.Security.Cryptography;
 using System.Text;
 using DomainApi;
