@@ -4,6 +4,7 @@
 using Adapter.Database;
 using DomainApi;
 using DomainApi.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace DomainImpl
 {
@@ -17,6 +18,7 @@ namespace DomainImpl
             this._userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
             this._passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
         }
+        
         public void AddUser(User user)
         {
             if (user == null)
@@ -39,8 +41,7 @@ namespace DomainImpl
                 }
             }
         }
-
-
+        
         public User GetUser(int userName)
         {
             return _userDbContext.Users.Find(userName);
@@ -65,20 +66,6 @@ namespace DomainImpl
             }   
         }
 
-
-        /*public void UpdateUser(int userId, string? userName, string? email, string? password)
-        {
-            var user = _userDbContext.Users.Find(userId);
-            if (user != null)
-            {
-                user.Username = userName;
-                user.Email = email;
-                user.Password = password;
-        
-                _userDbContext.SaveChanges();
-            }        
-        }*/
-
         public void DeleteUser(int userId)
         {
             var user = _userDbContext.Users.Find(userId);
@@ -88,6 +75,18 @@ namespace DomainImpl
                 _userDbContext.SaveChanges();
             }        
         }
+        
+        public async Task<User> VerifyCredentialsAsync(string username, string password)
+        {
+            var user = await _userDbContext.Users.SingleOrDefaultAsync(u => u.Username == username);
+            if (user != null && _passwordHasher.Verify(user.Password, password))
+            {
+                return user;
+            }
+
+            return null;
+        }
+
     }
 }
 

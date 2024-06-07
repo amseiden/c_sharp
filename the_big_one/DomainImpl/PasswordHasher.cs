@@ -20,7 +20,6 @@ public class PasswordHasher : IPasswordHasher
             {
                 stringBuilder.Append(hashedBytes[i].ToString("x2"));
             }
-
             return stringBuilder.ToString();
         }
     }

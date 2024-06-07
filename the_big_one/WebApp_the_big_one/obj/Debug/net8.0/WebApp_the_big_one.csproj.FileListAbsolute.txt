@@ -44,3 +44,5 @@
 /Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp_the_big_one/obj/Debug/net8.0/WebApp_the_big_one.pdb
 /Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp_the_big_one/obj/Debug/net8.0/WebApp_the_big_one.genruntimeconfig.cache
 /Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp_the_big_one/obj/Debug/net8.0/ref/WebApp_the_big_one.dll
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp_the_big_one/obj/Debug/net8.0/WebApp_the_big_one.RazorAssemblyInfo.cache
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp_the_big_one/obj/Debug/net8.0/WebApp_the_big_one.RazorAssemblyInfo.cs

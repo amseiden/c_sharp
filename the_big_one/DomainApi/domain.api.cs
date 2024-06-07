@@ -11,7 +11,9 @@ namespace DomainApi
         List<User> GetAllUsers();
         void UpdateUser(int userId, string userUsername, string userEmail, string userPassword, string firstName, string lastName);
         void DeleteUser(int userId);
-      //  void UpdateUser(int userId, string userUsername, string userEmail, string userPassword);
+        //  void UpdateUser(int userId, string userUsername, string userEmail, string userPassword);
+        Task<User> VerifyCredentialsAsync(string username, string password); 
+
     }
 
     public interface IPasswordHasher

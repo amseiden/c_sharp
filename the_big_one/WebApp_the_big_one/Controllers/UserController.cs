@@ -12,7 +12,6 @@ namespace WebApp.Controllers;
 public class UserController : ControllerBase
 {
     private readonly IUserManager userManager;
-
     public UserController(IUserManager userManager)
     {
         this.userManager = userManager;
@@ -45,9 +44,7 @@ public class UserController : ControllerBase
         };
         return Ok(userDto);
     }
-
-
-
+    
     // PUT: api/user/{userId}
     [HttpPut("{userId}")]
     public IActionResult UpdateUser(int userId, [FromBody] User user)
