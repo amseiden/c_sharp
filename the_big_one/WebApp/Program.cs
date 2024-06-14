@@ -1,3 +1,5 @@
+// PROGRAM.CS
+
 using Adapter.Database;
 using DomainApi;
 using DomainImpl;
@@ -5,39 +7,34 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
+builder.Services.AddControllersWithViews(); 
 
 builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("ApplicationDatabase"),
-        new MySqlServerVersion(new Version(5, 7, 39))));
+        new MySqlServerVersion(new Version(8, 3, 0))));
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-
 builder.Services.AddSwaggerGen();
-
-builder.Services.AddResponseCaching();
-
-builder.Services.AddScoped<IUserManager, UserManager>(); 
+builder.Services.AddResponseCaching(); 
+builder.Services.AddScoped<IUserManager, UserManager>();
 builder.Services.AddScoped<IPasswordHasher, PasswordHasher>(); 
-
 builder.Services.AddLogging(build =>
 {
     build.AddConsole().SetMinimumLevel(LogLevel.Debug);
     build.AddDebug().SetMinimumLevel(LogLevel.Debug);
 });
+builder.Services.AddRazorPages();
+
 
 var app = builder.Build();
 app.UseResponseCaching();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
     app.UseMigrationsEndPoint();
-
     app.UseSwagger();
-
     app.UseSwaggerUI(
         options =>
         {
@@ -47,9 +44,17 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseStaticFiles(); 
+app.UseRouting(); 
 app.UseAuthorization();
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Account}/{action=Login}/{id?}"); 
+
+    endpoints.MapRazorPages(); 
+});
 
 app.Run();
