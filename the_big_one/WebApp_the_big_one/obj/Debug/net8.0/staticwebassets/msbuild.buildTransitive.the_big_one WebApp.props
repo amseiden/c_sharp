@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/the_big_one WebApp.props" />
-</Project>

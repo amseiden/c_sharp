@@ -3,7 +3,7 @@
 
 using System.Security.Cryptography;
 using System.Text;
-using DomainApi;
+using Common.Interfaces;
 
 namespace DomainImpl;
 

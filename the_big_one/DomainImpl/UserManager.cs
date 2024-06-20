@@ -1,10 +1,9 @@
-﻿//   DOMAIN IMPL
-//   IUserManager
+﻿// UserManager.cs
 
 using Adapter.Database;
-using DomainApi;
-using DomainApi.Models;
+using Common.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using WebApp.Models;
 
 namespace DomainImpl
 {
@@ -18,7 +17,7 @@ namespace DomainImpl
             this._userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
             this._passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
         }
-        
+
         public void AddUser(User user)
         {
             if (user == null)
@@ -41,11 +40,12 @@ namespace DomainImpl
                 }
             }
         }
-        
-        public User GetUser(int userName)
+
+        public User GetUser(int userId)
         {
-            return _userDbContext.Users.Find(userName);
+            return _userDbContext.Users.Find(userId);
         }
+
         public List<User> GetAllUsers()
         {
             return _userDbContext.Users.ToList();
@@ -58,12 +58,12 @@ namespace DomainImpl
             {
                 if (!string.IsNullOrEmpty(username)) user.Username = username;
                 if (!string.IsNullOrEmpty(email)) user.Email = email;
-                if (!string.IsNullOrEmpty(password)) user.Password = _passwordHasher.Hash(password); // hash the password
+                if (!string.IsNullOrEmpty(password)) user.Password = _passwordHasher.Hash(password);
                 if (!string.IsNullOrEmpty(firstName)) user.FirstName = firstName;
                 if (!string.IsNullOrEmpty(lastName)) user.LastName = lastName;
 
                 _userDbContext.SaveChanges();
-            }   
+            }
         }
 
         public void DeleteUser(int userId)
@@ -73,9 +73,9 @@ namespace DomainImpl
             {
                 _userDbContext.Users.Remove(user);
                 _userDbContext.SaveChanges();
-            }        
+            }
         }
-        
+
         public async Task<User> VerifyCredentialsAsync(string username, string password)
         {
             var user = await _userDbContext.Users.SingleOrDefaultAsync(u => u.Username == username);
@@ -86,7 +86,5 @@ namespace DomainImpl
 
             return null;
         }
-
     }
 }
-

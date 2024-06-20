@@ -8,7 +8,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Adapter.Database\Adapter.Database.csproj" />
-      <ProjectReference Include="..\DomainApi\DomainApi.csproj" />
+      <ProjectReference Include="..\Common\Common.csproj" />
+
     </ItemGroup>
 
 </Project>

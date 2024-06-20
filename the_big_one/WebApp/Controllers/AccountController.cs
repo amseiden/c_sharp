@@ -1,3 +1,7 @@
+// AccountController.cs
+// Manages user authentication (login, signup, logout).
+
+using Common.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using DomainApi;
 using WebApp.Models;

@@ -1,0 +1,12 @@
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/bin/Debug/net8.0/Common.deps.json
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/bin/Debug/net8.0/Common.dll
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/bin/Debug/net8.0/Common.pdb
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.AssemblyInfoInputs.cache
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.AssemblyInfo.cs
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.csproj.CoreCompileInputs.cache
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.sourcelink.json
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.dll
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/refint/Common.dll
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/Common.pdb
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/obj/Debug/net8.0/ref/Common.dll

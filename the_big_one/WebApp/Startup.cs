@@ -1,4 +1,5 @@
 using Adapter.Database;
+using Common.Interfaces;
 using DomainApi;
 using DomainImpl;
 using Microsoft.EntityFrameworkCore;

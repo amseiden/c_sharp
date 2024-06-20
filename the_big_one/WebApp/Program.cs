@@ -1,7 +1,7 @@
 // PROGRAM.CS
 
 using Adapter.Database;
-using DomainApi;
+using Common.Interfaces;
 using DomainImpl;
 using Microsoft.EntityFrameworkCore; 
 

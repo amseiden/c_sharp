@@ -10,7 +10,7 @@
         "dependencies": {
           "Adapter.Database": "1.0.0",
           "AutoMapper": "13.0.1",
-          "DomainApi": "1.0.0",
+          "Common": "1.0.0",
           "DomainImpl": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.4",
           "Microsoft.AspNetCore.Mvc.Razor": "2.2.0",
@@ -1421,7 +1421,7 @@
       },
       "Adapter.Database/1.0.0": {
         "dependencies": {
-          "DomainApi": "1.0.0",
+          "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4"
         },
@@ -1429,15 +1429,15 @@
           "Adapter.Database.dll": {}
         }
       },
-      "DomainApi/1.0.0": {
+      "Common/1.0.0": {
         "runtime": {
-          "DomainApi.dll": {}
+          "Common.dll": {}
         }
       },
       "DomainImpl/1.0.0": {
         "dependencies": {
           "Adapter.Database": "1.0.0",
-          "DomainApi": "1.0.0"
+          "Common": "1.0.0"
         },
         "runtime": {
           "DomainImpl.dll": {}
@@ -2611,7 +2611,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DomainApi/1.0.0": {
+    "Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

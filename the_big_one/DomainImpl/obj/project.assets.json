@@ -203,7 +203,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DomainApi": "1.0.0",
+          "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4"
         },
@@ -214,14 +214,14 @@
           "bin/placeholder/Adapter.Database.dll": {}
         }
       },
-      "DomainApi/1.0.0": {
+      "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/DomainApi.dll": {}
+          "bin/placeholder/Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DomainApi.dll": {}
+          "bin/placeholder/Common.dll": {}
         }
       }
     }
@@ -584,16 +584,16 @@
       "path": "../Adapter.Database/Adapter.Database.csproj",
       "msbuildProject": "../Adapter.Database/Adapter.Database.csproj"
     },
-    "DomainApi/1.0.0": {
+    "Common/1.0.0": {
       "type": "project",
-      "path": "../DomainApi/DomainApi.csproj",
-      "msbuildProject": "../DomainApi/DomainApi.csproj"
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Adapter.Database >= 1.0.0",
-      "DomainApi >= 1.0.0"
+      "Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -625,8 +625,8 @@
             "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj": {
               "projectPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Adapter.Database/Adapter.Database.csproj"
             },
-            "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
-              "projectPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+            "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/Common.csproj": {
+              "projectPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/Common.csproj"
             }
           }
         }

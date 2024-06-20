@@ -4,30 +4,157 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: var(--container-background-color);
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: var(--heading-color);
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+            color: var(--label-color);
+        }
+        input {
+            width: 100%;
+            padding: 0.5em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: var(--input-background-color);
+            color: var(--input-text-color);
+        }
+        .text-danger {
+            color: #ff0000; /* Red */
+        }
+        button {
+            background-color: #32cd32; /* Green */
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            margin-top: 1em;
+        }
+        button:hover {
+            background-color: #228b22; /* Darker green */
+        }
+        .validation-summary {
+            margin-top: 1em;
+            color: #ff0000; /* Red */
+        }
+        .theme-switcher {
+            margin-top: 1em;
+            text-align: center;
+        }
+        .theme-switcher button {
+            background-color: #ff4500; /* Orange */
+            color: white;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .theme-switcher button:hover {
+            background-color: #ff6347; /* Lighter orange */
+        }
+    </style>
 </head>
 <body>
-<h2>Login</h2>
-
-<form asp-action="Login" method="post">
-    <div>
-        <label asp-for="Username"></label>
-        <input asp-for="Username" />
-        <span asp-validation-for="Username" class="text-danger"></span>
+<div class="container">
+    <h2>Login</h2>
+    <form asp-action="Login" method="post">
+        <div>
+            <label asp-for="Username">Username:</label>
+            <input asp-for="Username" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Password">Password:</label>
+            <input asp-for="Password" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+    <div class="validation-summary">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
     </div>
-    <div>
-        <label asp-for="Password"></label>
-        <input asp-for="Password" type="password" />
-        <span asp-validation-for="Password" class="text-danger"></span>
+    <div class="theme-switcher">
+        <button id="theme-toggle">Switch Theme</button>
     </div>
-    <button type="submit">Login</button>
-</form>
-
-<div>
-    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 </div>
 
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    const themes = {
+        light: {
+            '--background-color': '#f4f4f4',
+            '--text-color': '#333',
+            '--container-background-color': '#fff',
+            '--heading-color': '#ff4500',
+            '--label-color': '#333',
+            '--input-background-color': '#fff',
+            '--input-text-color': '#333'
+        },
+        dark: {
+            '--background-color': '#121212',
+            '--text-color': '#e0e0e0',
+            '--container-background-color': '#1e1e1e',
+            '--heading-color': '#ffa500',
+            '--label-color': '#e0e0e0',
+            '--input-background-color': '#333',
+            '--input-text-color': '#e0e0e0'
+        }
+    };
+
+    function applyTheme(theme) {
+        const root = document.documentElement;
+        const themeSettings = themes[theme];
+        for (const variable in themeSettings) {
+            root.style.setProperty(variable, themeSettings[variable]);
+        }
+    }
+
+    function getStoredTheme() {
+        return localStorage.getItem('theme') || 'dark';
+    }
+
+    function setStoredTheme(theme) {
+        localStorage.setItem('theme', theme);
+    }
+
+    function toggleTheme() {
+        const currentTheme = getStoredTheme();
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        setStoredTheme(newTheme);
+        applyTheme(newTheme);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const currentTheme = getStoredTheme();
+        applyTheme(currentTheme);
+        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+    });
+</script>
 </body>
 </html>

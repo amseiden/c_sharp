@@ -199,14 +199,14 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "DomainApi/1.0.0": {
+      "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/DomainApi.dll": {}
+          "bin/placeholder/Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DomainApi.dll": {}
+          "bin/placeholder/Common.dll": {}
         }
       }
     }
@@ -564,15 +564,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "DomainApi/1.0.0": {
+    "Common/1.0.0": {
       "type": "project",
-      "path": "../DomainApi/DomainApi.csproj",
-      "msbuildProject": "../DomainApi/DomainApi.csproj"
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "DomainApi >= 1.0.0",
+      "Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.4",
       "Microsoft.EntityFrameworkCore.Abstractions >= 8.0.4"
     ]
@@ -603,8 +603,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj": {
-              "projectPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/DomainApi/DomainApi.csproj"
+            "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/Common.csproj": {
+              "projectPath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/Common.csproj"
             }
           }
         }

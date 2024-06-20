@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "S7Vu5Bza4tKCAMYQdb6S5CbQh7bY1kXGKs8u0VLqtyQgBiAROapyNAFGeL83gFbK+N5k8HTdu+BdnUFfONkYWg==",
+  "success": true,
+  "projectFilePath": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/Common/Common.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.episerver.com/feed/packages.svc'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

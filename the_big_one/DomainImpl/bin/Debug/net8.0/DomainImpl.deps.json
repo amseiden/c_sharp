@@ -9,7 +9,7 @@
       "DomainImpl/1.0.0": {
         "dependencies": {
           "Adapter.Database": "1.0.0",
-          "DomainApi": "1.0.0"
+          "Common": "1.0.0"
         },
         "runtime": {
           "DomainImpl.dll": {}
@@ -129,7 +129,7 @@
       },
       "Adapter.Database/1.0.0": {
         "dependencies": {
-          "DomainApi": "1.0.0",
+          "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.4"
         },
@@ -137,9 +137,9 @@
           "Adapter.Database.dll": {}
         }
       },
-      "DomainApi/1.0.0": {
+      "Common/1.0.0": {
         "runtime": {
-          "DomainApi.dll": {}
+          "Common.dll": {}
         }
       }
     }
@@ -232,7 +232,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DomainApi/1.0.0": {
+    "Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
