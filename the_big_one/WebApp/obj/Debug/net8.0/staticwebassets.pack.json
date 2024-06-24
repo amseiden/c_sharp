@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
       "Id": "/Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },

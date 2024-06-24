@@ -1,13 +1,12 @@
-// AccountController.cs
-// Manages user authentication (login, signup, logout).
-
 using Common.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using DomainApi;
 using WebApp.Models;
 
 namespace WebApp.Controllers
 {
+    [ApiController]
+    [Route("account")]
+    [Produces("application/json")]
     public class AccountController : Controller
     {
         private readonly IUserManager _userManager;
@@ -18,29 +17,76 @@ namespace WebApp.Controllers
             _userManager = userManager;
             _passwordHasher = passwordHasher;
         }
- 
-        [HttpGet]
+
+        [HttpGet("login")]
         public IActionResult Login()
         {
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Login(LoginViewModel model)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromForm] LoginViewModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                var user = await _userManager.VerifyCredentialsAsync(model.Username, model.Password);
-                if (user != null)
-                {
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", "Invalid username or password");
-                }
+                return View(model);
             }
-            return View(model);
+
+            var user = await _userManager.VerifyCredentialsAsync(model.Username, model.Password);
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                return View(model);
+            }
+            
+            //  set session / authentication cookie 
+
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet("signup")]
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
+        [HttpPost("signup")]
+        public IActionResult SignUp([FromForm] SignUpViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            if (model.Password != model.ConfirmPassword)
+            {
+                ModelState.AddModelError(string.Empty, "Passwords do not match.");
+                return BadRequest(ModelState);
+            }
+
+            var user = new User
+            {
+                Username = model.Username,
+                Email = model.Email,
+                Password = _passwordHasher.Hash(model.Password),
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                CreatedAt = DateTime.UtcNow,
+                UpdatedAt = DateTime.UtcNow
+            };
+
+            _userManager.AddUser(user);
+
+            TempData["SuccessMessage"] = "User created successfully.";
+            return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet("logout")]
+        public IActionResult Logout()
+        {
+            // here I should clear session / authentication cookie 
+
+            return RedirectToAction("Welcome", "Home");
         }
     }
 }

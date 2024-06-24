@@ -1,11 +1,14 @@
-namespace WebApp.Models;
-public class LoginViewModel
+using System.ComponentModel.DataAnnotations;
+
+namespace WebApp.Models
 {
-    public LoginViewModel(string username, string password)
+    public class LoginViewModel
     {
-        Username = username;
-        Password = password;
+        [Required]
+        public string Username { get; set; }
+
+        [Required]
+        // [DataType(DataType.Password)]
+        public string Password { get; set; }
     }
-    public string Username { get; set; }
-    public string Password { get; set; }
 }
