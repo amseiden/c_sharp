@@ -1,6 +1,7 @@
+//STARTUP.CS
+
 using Adapter.Database;
 using Common.Interfaces;
-using DomainApi;
 using DomainImpl;
 using Microsoft.EntityFrameworkCore;
 
@@ -71,5 +72,6 @@ namespace WebApp
                 endpoints.MapRazorPages(); 
             });
         }
+
     }
 }
