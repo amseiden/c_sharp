@@ -11,11 +11,13 @@ namespace WebApp.Controllers
     {
         private readonly IUserManager _userManager;
         private readonly IPasswordHasher _passwordHasher;
+        private readonly ILogger<AccountController> _logger;
 
-        public AccountController(IUserManager userManager, IPasswordHasher passwordHasher)
+        public AccountController(IUserManager userManager, IPasswordHasher passwordHasher, ILogger<AccountController> logger)
         {
             _userManager = userManager;
             _passwordHasher = passwordHasher;
+            _logger = logger;
         }
 
         [HttpGet("login")]
@@ -25,23 +27,27 @@ namespace WebApp.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromForm] LoginViewModel model)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
+            _logger.LogInformation("Login attempt for user: {Username}", model.Username);
+            
             if (!ModelState.IsValid)
             {
-                return View(model);
+                _logger.LogWarning("Model state is invalid for user: {Username}", model.Username);
+                return BadRequest(ModelState);
             }
 
             var user = await _userManager.VerifyCredentialsAsync(model.Username, model.Password);
             if (user == null)
             {
+                _logger.LogWarning("Invalid login attempt for user: {Username}", model.Username);
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                return View(model);
+                return BadRequest(ModelState);
             }
-            
-            //  set session / authentication cookie 
 
-            return RedirectToAction("Index", "Home");
+            _logger.LogInformation("Login successful for user: {Username}", model.Username);
+            return Ok(new { Message = "Login successful" });
         }
 
         [HttpGet("signup")]
@@ -51,7 +57,8 @@ namespace WebApp.Controllers
         }
 
         [HttpPost("signup")]
-        public IActionResult SignUp([FromForm] SignUpViewModel model)
+        [ValidateAntiForgeryToken]
+        public IActionResult SignUp([FromBody] SignUpViewModel model)
         {
             if (!ModelState.IsValid)
             {
@@ -77,16 +84,7 @@ namespace WebApp.Controllers
 
             _userManager.AddUser(user);
 
-            TempData["SuccessMessage"] = "User created successfully.";
-            return RedirectToAction("Index", "Home");
-        }
-
-        [HttpGet("logout")]
-        public IActionResult Logout()
-        {
-            // here I should clear session / authentication cookie 
-
-            return RedirectToAction("Welcome", "Home");
+            return Ok(new { Message = "User created successfully" });
         }
     }
 }

@@ -1,7 +1,7 @@
 @model WebApp.Models.SignUpViewModel
 
 @{
-    ViewData["Title"] = "Sign Up";
+ViewData["Title"] = "Sign Up";
 }
 
 <!DOCTYPE html>
@@ -9,87 +9,76 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - My Application</title>
+    <title>@ViewData["Title"] - Sign Up</title>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <div class="container">
-        <h2>@ViewData["Title"]</h2>
-        <form asp-action="SignUp" method="post">
-            @Html.AntiForgeryToken()
-            <div>
-                <label asp-for="FirstName">FirstName</label>
-                <input asp-for="FirstName"/>
-                <span asp-validation-for="FirstName" class="text-danger"></span>
-            </div>
-            <div>
-                <label asp-for="LastName">LastName</label>
-                <input asp-for="LastName"/>
-                <span asp-validation-for="LastName" class="text-danger"></span>
-            </div>
-            <div>
-                <label asp-for="Username">Username</label>
-                <input asp-for="Username"/>
-                <span asp-validation-for="Username" class="text-danger"></span>
-            </div>
-            <div>
-                <label asp-for="Email">Email</label>
-                <input asp-for="Email"/>
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div>
-                <label asp-for="Password">Password</label>
-                <input asp-for="Password" type="password"/>
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <div>
-                <label asp-for="ConfirmPassword">ConfirmPassword</label>
-                <input asp-for="ConfirmPassword" type="password"/>
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-            </div>
-            <button type="submit">Sign Up</button>
-        </form>
-        <div class="theme-switcher">
-            <button class="light-mode" onclick="switchTheme('light')">Light Mode</button>
-            <button class="dark-mode" onclick="switchTheme('dark')">Dark Mode</button>
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <form id="signupForm">
+        @Html.AntiForgeryToken()
+        <div>
+            <label asp-for="FirstName">First Name</label>
+            <input asp-for="FirstName" name="FirstName" />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
         </div>
-    </div>
-    <script>
-        function switchTheme(mode) {
-            if (mode === 'light') {
-                document.body.style.backgroundColor = '#f0f0f0';
-                document.body.style.color = '#333';
-                document.querySelector('.container').style.backgroundColor = '#fff';
-                document.querySelector('.container').style.color = '#333';
-                document.querySelectorAll('input').forEach(input => {
-                    input.style.backgroundColor = '#ddd';
-                    input.style.color = '#333';
-                });
-                document.querySelectorAll('.text-danger').forEach(span => {
-                    span.style.color = '#d9534f';
-                });
-                document.querySelectorAll('button').forEach(button => {
-                    button.style.backgroundColor = '#5bc0de';
-                    button.style.color = '#fff';
-                });
-            } else {
-                document.body.style.backgroundColor = '#1e1e1e';
-                document.body.style.color = '#f0f0f0';
-                document.querySelector('.container').style.backgroundColor = '#333';
-                document.querySelector('.container').style.color = '#f0f0f0';
-                document.querySelectorAll('input').forEach(input => {
-                    input.style.backgroundColor = '#444';
-                    input.style.color = '#f0f0f0';
-                });
-                document.querySelectorAll('.text-danger').forEach(span => {
-                    span.style.color = '#ff6f61';
-                });
-                document.querySelectorAll('button').forEach(button => {
-                    button.style.backgroundColor = '#ff6f61';
-                    button.style.color = '#fff';
-                });
-            }
-        }
-    </script>
+        <div>
+            <label asp-for="LastName">Last Name</label>
+            <input asp-for="LastName" name="LastName" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Username">Username</label>
+            <input asp-for="Username" name="Username" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" name="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password" type="password" name="Password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="ConfirmPassword">Confirm Password</label>
+            <input asp-for="ConfirmPassword" type="password" name="ConfirmPassword" />
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+        </div>
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+<script>
+    document.getElementById('signupForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(event.target);
+        const formObject = Object.fromEntries(formData.entries());
+        const jsonPayload = JSON.stringify(formObject);
+
+        fetch('/account/signup', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            },
+            body: jsonPayload
+        })
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                }
+                throw new Error('Network response was not ok.');
+            })
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+    });
+</script>
 </body>
 </html>

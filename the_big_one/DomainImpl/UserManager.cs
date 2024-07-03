@@ -77,14 +77,13 @@ namespace DomainImpl
             }        
         }
         
-        public async Task<User> VerifyCredentialsAsync(string username, string password)
+        public async Task<User?> VerifyCredentialsAsync(string username, string password)
         {
             var user = await _userDbContext.Users.SingleOrDefaultAsync(u => u.Username == username);
             if (user != null && _passwordHasher.Verify(user.Password, password))
             {
                 return user;
             }
-
             return null;
         }
     }

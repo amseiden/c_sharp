@@ -9,6 +9,6 @@ namespace Common.Interfaces
         List<User> GetAllUsers();
         void UpdateUser(int userId, string? username, string? email, string? password, string? firstName, string? lastName);
         void DeleteUser(int userId);
-        Task<User> VerifyCredentialsAsync(string username, string password);
+        Task<User?> VerifyCredentialsAsync(string username, string password);
     }
 }
