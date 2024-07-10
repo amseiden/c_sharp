@@ -1,9 +1,3 @@
-@model WebApp.Models.LoginViewModel
-
-@{
-    ViewData["Title"] = "Login";
-}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,39 +7,39 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <div class="container">
-        <h2>@ViewData["Title"]</h2>
-        <form id="loginForm">
-            @Html.AntiForgeryToken()
-            <div>
-                <label asp-for="Username">Username</label>
-                <input asp-for="Username" name="Username" />
-                <span asp-validation-for="Username" class="text-danger"></span>
-            </div>
-            <div>
-                <label asp-for="Password">Password</label>
-                <input asp-for="Password" type="password" name="Password" />
-                <span asp-validation-for="Password" class="text-danger"></span>
-            </div>
-            <button type="submit">Login</button>
-        </form>
-    </div>
-    <script>
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            event.preventDefault();
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <form id="loginForm">
+        @Html.AntiForgeryToken()
+        <div>
+            <label asp-for="Username">Username</label>
+            <input asp-for="Username" name="Username" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+        <div>
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password" type="password" name="Password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</div>
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault();
 
-            const formData = new FormData(event.target);
-            const formObject = Object.fromEntries(formData.entries());
-            const jsonPayload = JSON.stringify(formObject);
+        const formData = new FormData(event.target);
+        const formObject = Object.fromEntries(formData.entries());
+        const jsonPayload = JSON.stringify(formObject);
 
-            fetch('/account/login', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
-                },
-                body: jsonPayload
-            })
+        fetch('/account/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            },
+            body: jsonPayload
+        })
             .then(response => {
                 if (response.ok) {
                     return response.json();
@@ -60,7 +54,7 @@
             .catch(error => {
                 console.error('There was a problem with the fetch operation:', error);
             });
-        });
-    </script>
+    });
+</script>
 </body>
 </html>

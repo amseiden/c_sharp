@@ -25,7 +25,7 @@ namespace DomainImpl
             byte[] passwordBytes = Encoding.UTF8.GetBytes(password);
             byte[] salt = RandomNumberGenerator.GetBytes(_saltSize); // Generate a random salt
 
-            var pbkdf2 = new Rfc2898DeriveBytes(passwordBytes, salt, _iterations, HashAlgorithmName.SHA256, _hashSize);
+            var pbkdf2 = new Rfc2898DeriveBytes(passwordBytes, salt, _iterations, HashAlgorithmName.SHA256);
             byte[] hash = pbkdf2.GetBytes(_hashSize);
 
             // Combine salt and hash for storage
@@ -48,7 +48,7 @@ namespace DomainImpl
             byte[] hash = new byte[combinedHash.Length - salt.Length];
             Array.Copy(combinedHash, salt.Length, hash, 0, hash.Length);
 
-            byte[] inputHashBytes = new Rfc2898DeriveBytes(Encoding.UTF8.GetBytes(inputPassword), salt, _iterations, HashAlgorithmName.SHA256, _hashSize).GetBytes(_hashSize);
+            byte[] inputHashBytes = new Rfc2898DeriveBytes(Encoding.UTF8.GetBytes(inputPassword), salt, _iterations, HashAlgorithmName.SHA256).GetBytes(_hashSize);
 
             return SecureEquals(inputHashBytes, hash); // Use secure comparison for security
         }

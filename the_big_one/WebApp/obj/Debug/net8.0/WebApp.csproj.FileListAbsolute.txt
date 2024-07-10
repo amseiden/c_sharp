@@ -59,3 +59,5 @@
 /Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/bin/Debug/net8.0/System.Security.Permissions.dll
 /Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/bin/Debug/net8.0/Common.dll
 /Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/bin/Debug/net8.0/Common.pdb
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/bin/Debug/net8.0/Konscious.Security.Cryptography.Argon2.dll
+/Users/danielciornei/Documents/mule/c_sharp/the_big_one/WebApp/bin/Debug/net8.0/Konscious.Security.Cryptography.Blake2.dll
