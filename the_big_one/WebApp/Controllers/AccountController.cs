@@ -2,6 +2,7 @@ using Common.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using WebApp.Models;
 
+
 namespace WebApp.Controllers
 {
     [ApiController]
@@ -31,7 +32,7 @@ namespace WebApp.Controllers
         public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
             _logger.LogInformation("Login attempt for user: {Username}", model.Username);
-
+            
             if (!ModelState.IsValid)
             {
                 _logger.LogWarning("Model state is invalid for user: {Username}", model.Username);
@@ -49,7 +50,6 @@ namespace WebApp.Controllers
             _logger.LogInformation("Login successful for user: {Username}", model.Username);
             return Ok(new { Message = "Login successful" });
         }
-
 
         [HttpGet("signup")]
         public IActionResult SignUp()

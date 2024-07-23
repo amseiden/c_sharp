@@ -12,8 +12,8 @@ namespace DomainImpl
 
         public UserManager(UserDbContext userDbContext, IPasswordHasher passwordHasher)
         {
-            this._userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
-            this._passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
+            _userDbContext = userDbContext ?? throw new ArgumentNullException(nameof(userDbContext));
+            _passwordHasher = passwordHasher ?? throw new ArgumentNullException(nameof(passwordHasher));
         }
         
         public void AddUser(User user)
@@ -86,6 +86,5 @@ namespace DomainImpl
             }
             return null;
         }
-
     }
 }
